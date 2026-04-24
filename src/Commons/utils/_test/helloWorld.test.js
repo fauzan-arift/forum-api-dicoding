@@ -3,6 +3,6 @@ import helloWorld from '../helloWorld.js';
 
 describe('helloWorld', () => {
   it('should return wrong string', () => {
-    expect(helloWorld()).toBe('Hello, Universe!'); // sengaja salah
+    expect(helloWorld()).toBe('Hello, World!');
   });
 });
